@@ -12,7 +12,7 @@ namespace AsyncClient_004
         public Socket Socket { get; set; }
         public string Message { get; set; }
 
-
+        public byte[] ByteMessageResponce { get; set; }
 
     }
 }

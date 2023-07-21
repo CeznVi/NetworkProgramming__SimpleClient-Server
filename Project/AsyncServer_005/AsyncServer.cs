@@ -11,6 +11,8 @@ namespace AsyncServer_005
         private Socket _serverSocket;
 
         private ManualResetEvent _mre;
+        private object locker = new();
+
 
         public AsyncServer(string ip, int port) 
         {
