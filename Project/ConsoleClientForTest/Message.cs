@@ -23,10 +23,5 @@ namespace MessageServer.Entity
             return $"{IncomeTime} от {Sender}. Сообщение: {Messages}"; 
         }
 
-        public byte ToByte()
-        {
-            return Convert.ToByte(this.ToString());
-        }
-        public string Command { get; set; }
     }
 }
