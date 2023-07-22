@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncClient_004_+FIX", "Asy
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncServer_005", "AsyncServer_005\AsyncServer_005.csproj", "{587639CA-C48D-4316-85EA-4051B1E6F4AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageServer", "MessageServer\MessageServer.csproj", "{18BC85D0-F136-47AD-94F0-AD7513B34AB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClientForTest", "ConsoleClientForTest\ConsoleClientForTest.csproj", "{54944864-DCD6-4C19-8772-33EA66C6E9DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{587639CA-C48D-4316-85EA-4051B1E6F4AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{587639CA-C48D-4316-85EA-4051B1E6F4AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{587639CA-C48D-4316-85EA-4051B1E6F4AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18BC85D0-F136-47AD-94F0-AD7513B34AB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18BC85D0-F136-47AD-94F0-AD7513B34AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18BC85D0-F136-47AD-94F0-AD7513B34AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18BC85D0-F136-47AD-94F0-AD7513B34AB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54944864-DCD6-4C19-8772-33EA66C6E9DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54944864-DCD6-4C19-8772-33EA66C6E9DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54944864-DCD6-4C19-8772-33EA66C6E9DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54944864-DCD6-4C19-8772-33EA66C6E9DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
